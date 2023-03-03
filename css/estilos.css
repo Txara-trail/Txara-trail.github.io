@@ -145,9 +145,14 @@ header {
     .izen-emateak h3{
         font-size: 20px;
     }
+    .izen-emateak h4{
+        font-size: 16px;
+        font-weight: bold;
+    }
     .izen-emateak li{
         font-size: 12px;
     }
+    
 }
 
 /** aurkezpena */
@@ -438,6 +443,6 @@ footer{
 
 @media (max-width: 500px) {
     .contenedor-laguntzaileak > .laguntzailea {
-        height: 50px;
+        height: 30px;
     }
 }
