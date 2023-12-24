@@ -70,7 +70,7 @@ body {
   color: #444;
   text-align: left;
   background-color: #fff;
-}
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -11818,3 +11818,30 @@ img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto }
+
+/*hizkuntza aldatzailea*/
+
+.language-switch img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;}
+
+/*adi*/
+
+.atencion {
+    font-size: 2em;
+    color: #ff0000; /* Color rojo para resaltar la atención */
+    animation: saltar 0.5s infinite alternate;
+}
+
+@keyframes saltar {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
